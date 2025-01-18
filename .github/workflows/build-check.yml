@@ -28,7 +28,7 @@ jobs:
 
     - name: Build Keystone
       run: |
-        git clone https://github.com/EgeBalci/keystone
+        git clone https://github.com/offsoc/keystone.git
         mkdir keystone/build
         cd keystone/build
         ../make-lib.sh
@@ -139,7 +139,7 @@ jobs:
 
     - name: Build Keystone
       run: |
-        git clone https://github.com/EgeBalci/keystone
+        git clone https://github.com/offsoc/keystone.git
         mkdir keystone/build
         cd keystone/build
         ../make-lib.sh
